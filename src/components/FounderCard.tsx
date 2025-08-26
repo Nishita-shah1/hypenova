@@ -31,7 +31,7 @@ export default function FounderCard() {
           <div className="absolute inset-0 bg-gradient-to-br from-blue-400/30 via-purple-500/20 to-cyan-400/30 rounded-3xl blur-2xl transform rotate-3 scale-105" />
           <Card className="neon-glow">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              src="./public/Hypernova cofounder image.JPG"
               alt="Manish Kumawat - Founder of Hype Nova"
               className="rounded-2xl w-full object-cover aspect-[3/4]"
               data-testid="founder-image"
