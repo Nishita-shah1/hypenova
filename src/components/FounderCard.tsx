@@ -92,7 +92,7 @@ export default function FounderCard() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <button 
+            <button href="https://www.instagram.com/bawal_techh/"
               className="group w-full bg-blue-500 hover:bg-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-500 neon-glow inline-flex items-center justify-center gap-3 relative overflow-hidden"
               data-testid="button-follow-founder"
             >
