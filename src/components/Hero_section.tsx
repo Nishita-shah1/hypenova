@@ -130,11 +130,7 @@ export default function HeroSection() {
           className="absolute top-20 right-32 hidden lg:block"
         >
           <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-purple-500/50 shadow-lg shadow-purple-500/30 animate-float-slow">
-            <img
-              src="https://images.unsplash.com/photo-1494790108755-2616b2ad6c2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150"
-              alt="Profile"
-              className="w-full h-full object-cover"
-            />
+            
           </div>
         </motion.div>
         
@@ -145,11 +141,7 @@ export default function HeroSection() {
           className="absolute top-40 right-20 hidden lg:block"
         >
           <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-cyan-400/50 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-200% animate-gradient-x">
-            <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150"
-              alt="Profile"
-              className="w-full h-full object-cover mix-blend-overlay"
-            />
+            
           </div>
         </motion.div>
         
@@ -195,23 +187,25 @@ export default function HeroSection() {
           transition={{ delay: 0.8, duration: 0.6 }}
           className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-16"
         >
-          <Button 
-            size="lg"
-            className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-12 py-6 rounded-full text-xl font-bold transition-all duration-500 hover:scale-110 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 relative overflow-hidden"
-            data-testid="button-go-viral"
-          >
-            <span className="relative z-10 flex items-center gap-3">
-              <motion.span
-                animate={{ rotate: [0, 10, -10, 0] }}
-                transition={{ duration: 0.5, repeat: Infinity, repeatDelay: 5 }}
-              >
-                <Zap className="w-6 h-6" />
-              </motion.span>
-              Go Viral
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-          </Button>
+          <a href="tel:8851529420">
+  <Button
+    size="lg"
+    className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-12 py-6 rounded-full text-xl font-bold transition-all duration-500 hover:scale-110 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 relative overflow-hidden"
+    data-testid="button-go-viral"
+  >
+    <span className="relative z-10 flex items-center gap-3">
+      <motion.span
+        animate={{ rotate: [0, 10, -10, 0] }}
+        transition={{ duration: 0.5, repeat: Infinity, repeatDelay: 5 }}
+      >
+        <Zap className="w-6 h-6" />
+      </motion.span>
+      Go Viral
+      <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+    </span>
+    <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+  </Button>
+</a>
         </motion.div>
       </motion.div>
 
