@@ -114,11 +114,7 @@ export default function HeroSection() {
         >
           <div className="relative">
             <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-blue-400/50 shadow-lg shadow-blue-400/30 animate-float">
-              <img
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150"
-                alt="Profile"
-                className="w-full h-full object-cover"
-              />
+           
             </div>
           </div>
         </motion.div>
