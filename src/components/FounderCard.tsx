@@ -92,17 +92,20 @@ export default function FounderCard() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <button href="https://www.instagram.com/bawal_techh/"
-              className="group w-full bg-blue-500 hover:bg-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-500 neon-glow inline-flex items-center justify-center gap-3 relative overflow-hidden"
-              data-testid="button-follow-founder"
-            >
-              <span className="relative z-10 flex items-center gap-3">
-                <Instagram className="w-6 h-6" />
-                Follow Bawal Tech
-                <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            </button>
+  <a href="https://www.instagram.com/bawal_techh/" target="_blank" rel="noopener noreferrer">
+  <button
+    className="group w-full bg-blue-500 hover:bg-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-500 neon-glow inline-flex items-center justify-center gap-3 relative overflow-hidden"
+    data-testid="button-follow-founder"
+  >
+    <span className="relative z-10 flex items-center gap-3">
+      <Instagram className="w-6 h-6" />
+      Follow Bawal Tech
+      <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+    </span>
+    <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+  </button>
+</a>
+            
           </motion.div>
         </div>
       </motion.div>
