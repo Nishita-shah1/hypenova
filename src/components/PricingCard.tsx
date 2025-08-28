@@ -118,7 +118,8 @@ export default function PricingCard({ plan }: PricingCardProps) {
           </div>
 
           {/* CTA Button */}
-          <button
+          <a href="tel:8851529420">
+            <button
             className={`w-full text-white py-4 rounded-2xl font-bold text-lg transition-all duration-300 hover:scale-105 relative overflow-hidden group/btn ${
               plan.popular ? 'bg-purple-500 neon-glow-purple' : `bg-blue-500 hover:bg-blue-600`
             }`}
@@ -127,7 +128,8 @@ export default function PricingCard({ plan }: PricingCardProps) {
             {plan.popular && (
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-cyan-400 to-blue-400 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-500" />
             )}
-          </button>
+          </button></a>
+          
         </CardContent>
 
         {/* Bottom accent line */}
