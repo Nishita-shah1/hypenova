@@ -44,7 +44,8 @@ export default function ContactSection() {
               whileHover={{ scale: 1.05, rotateY: 5 }}
               className="perspective-1000"
             >
-              <Button 
+              <a href="tel:8851529420">
+                <Button 
                 size="lg"
                 className="group w-full bg-blue-500 hover:bg-purple-600 text-white px-8 py-6 rounded-2xl text-xl font-bold transition-all duration-500 neon-glow relative overflow-hidden"
                 data-testid="button-book-call"
@@ -54,7 +55,7 @@ export default function ContactSection() {
                   Book Strategy Call
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </Button>
+              </Button> </a>
             </motion.div>
             
             <motion.div
@@ -65,7 +66,8 @@ export default function ContactSection() {
               whileHover={{ scale: 1.05, rotateY: -5 }}
               className="perspective-1000"
             >
-              <Button 
+              <a href="tel:8851529420">
+                <Button 
                 size="lg"
                 className="group w-full bg-purple-500 hover:bg-cyan-400 text-white px-8 py-6 rounded-2xl text-xl font-bold transition-all duration-500 neon-glow-purple relative overflow-hidden"
                 data-testid="button-chat-whatsapp"
@@ -75,7 +77,7 @@ export default function ContactSection() {
                   Start Creating Now
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-cyan-400 to-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </Button>
+              </Button> </a>
             </motion.div>
           </div>
           
@@ -89,7 +91,7 @@ export default function ContactSection() {
             <h3 className="text-2xl font-bold text-white mb-6">Connect with Hype Nova</h3>
             <div className="flex justify-center">
               <motion.a 
-                href="#" 
+                href="https://www.instagram.com/hypenova.media/" 
                 className="text-gray-400 hover:text-cyan-400 transition-colors group"
                 data-testid="link-instagram"
                 whileHover={{ scale: 1.3, rotate: 10 }}
@@ -106,7 +108,7 @@ export default function ContactSection() {
               <span className="holographic-text font-bold text-lg">Nova</span>
             </div>
             <p className="text-gray-500 text-sm">
-              © 2024 Hype Nova. Powered by Bawal Tech. All Rights Reserved.
+              © 2024 Hype Nova. All Rights Reserved.
             </p>
           </div>
         </motion.div>
