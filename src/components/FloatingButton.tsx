@@ -15,7 +15,8 @@ export default function FloatingButton() {
     >
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 rounded-full blur-2xl animate-pulse" />
-        <Button
+        <a href="tel:8851529420">
+          <Button
           size="lg"
           className="relative bg-black/50 backdrop-blur-xl border-2 border-blue-400/50 text-white px-12 py-6 rounded-full text-2xl font-bold hover:scale-110 transition-all duration-500 neon-glow pulse-glow"
         >
@@ -23,7 +24,8 @@ export default function FloatingButton() {
             <Rocket className="w-8 h-8" />
             Let's Go Viral
           </span>
-        </Button>
+        </Button></a>
+        
       </div>
     </motion.div>
   );
