@@ -56,7 +56,7 @@ const scrollToSection = (sectionId: string) => {
 
 // Main HeroSection Component
 export default function HeroSection() {
-  const videoUrl = "https://images.unsplash.com/photo-1517439160566-6b22c7a38753?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+  const videoUrl = "https://cdn.pixabay.com/video/2023/05/24/164381-830461330_large.mp4";
 
   return (
     <section className="min-h-screen relative flex flex-col justify-center items-center text-center px-6 overflow-hidden">
